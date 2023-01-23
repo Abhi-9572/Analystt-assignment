@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+table,tr,th,td{
+  border: none;
+}
+button{
+  
+  background-color: rgb(5, 2, 2);
+  border-radius: 25px;
+}
+.description{
+  display: flex;
+  
+}
+.right{
+  margin-left: 15rem;
+}
