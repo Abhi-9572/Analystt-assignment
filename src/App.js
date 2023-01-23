@@ -6,8 +6,10 @@ import DataFetch from './component/DataFetch';
 
 function App() {
   return (
-    
-      <DataFetch/>
+    <div className='container'>
+<DataFetch/>
+    </div>
+      
     
     
   );

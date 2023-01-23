@@ -7,13 +7,10 @@ const Card = ({ data }) => {
     const showAndHide = (e) => {
         setShow(!show)
     }
-    console.log(data);
     return (
         <>
             {
-
-                
-                    <div className="shadow-sm p-3 mb-5 bg-body-tertiary rounded"><table className="table">
+                <div className="shadow-sm p-3 mb-5 bg-body-tertiary rounded"><table className="table">
                         <thead>
                             <tr>
                                 <th scope="col"></th>
@@ -24,11 +21,11 @@ const Card = ({ data }) => {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>{data.name}</td>
+                                <td >{data.name}</td>
                                 <td>{data.username}</td>
                                 <td>{data.address.city}</td>
                                 <td>{data.address.street}</td>
-                                <button  onClick={(e) => showAndHide(e)}>{!show?"Show Details":"Hide Details"}</button>
+                                <button className='hideBtn'  onClick={(e) => showAndHide(e)}>{!show?"Show Details":"Hide Details"}</button>
                             </tr>
 
                         </tbody>

@@ -38,11 +38,14 @@
 }
 table,tr,th,td{
   border: none;
+  max-width: 1000px;
 }
-button{
+.hideBtn{
+  color:#fff;
   
-  background-color: rgb(5, 2, 2);
+  background-color: red !important; 
   border-radius: 25px;
+  border: none;
 }
 .description{
   display: flex;
@@ -51,3 +54,4 @@ button{
 .right{
   margin-left: 15rem;
 }
+

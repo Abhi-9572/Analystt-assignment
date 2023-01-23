@@ -25,9 +25,10 @@ const DataFetch = () => {
     }, [pageNo])
     return (
         <div>
+            
             {
-                data.map((val) => {
-                    return <Card data={val} />
+                data.map((val,i) => {
+                    return <Card key={i} data={val} />
                 })
             }
 
